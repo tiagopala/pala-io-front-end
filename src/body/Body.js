@@ -1,10 +1,10 @@
 import './Body.css';
 import "@fontsource/roboto-condensed";
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 function Body() {
     return (
-        <div>
+        <div id="body">
             <section className="Description-section">
                 <Container>
                     <div className="Description-title">

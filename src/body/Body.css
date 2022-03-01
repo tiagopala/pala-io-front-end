@@ -1,6 +1,9 @@
+#body {
+    height: 100%;
+}
+
 .Description-section {
     background-color: #232F3E;
-    /* height: 250px; */
 }
 
 .Description-title {

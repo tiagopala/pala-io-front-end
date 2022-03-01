@@ -4,10 +4,10 @@ import Body from './body/Body.js'
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Body />
-    </div>
+    </>
   );
 }
 
