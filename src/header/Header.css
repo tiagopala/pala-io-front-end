@@ -1,7 +1,45 @@
-.header-logo {
-    position: absolute;
+header {
+    background-color: white;
+    height: 114px;
+}
+
+.App-logo {
     width: 300px;
     height: 67.68px;
-    left: 180px;
-    top: 20px;       
+}
+
+.App-logo-div {
+    padding-top: 20px;
+}
+
+.Arrow-down {
+    width: 10px;
+    height: 10px;
+}
+
+.Nav-item-left {
+    margin-right: 40px;
+}
+
+.Nav-items-div {
+    padding-top: 29px;
+    text-align: right;
+}
+
+.Contact-buttom {
+    width: 101px;
+    height: 51px;
+    background: #FF9D00;
+    border-radius: 15px;
+    border: none;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover {
+    cursor: pointer;
 }
