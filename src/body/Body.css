@@ -1,0 +1,15 @@
+.Description-section {
+    background-color: #232F3E;
+    height: 250px;
+}
+
+.Description-title {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+
+}

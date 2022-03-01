@@ -1,6 +1,6 @@
+import './Header.css';
 import logo from './images/pala-logo.png';
 import arrowdown from './images/arrow-down-sign-to-navigate.png';
-import './Header.css';
 import { Col, Container, Row } from 'react-bootstrap';
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
                 <Row>
                     <Col>
                         <div className="App-logo-div">
-                            <img src={logo} className="App-logo" alt="logo" />
+                            <img src={logo} className="App-logo" alt="logo" style={{width:140}}/>
                         </div>
                     </Col>
                     <Col>
