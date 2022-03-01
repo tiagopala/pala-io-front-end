@@ -1,6 +1,6 @@
 .Description-section {
     background-color: #232F3E;
-    height: 250px;
+    /* height: 250px; */
 }
 
 .Description-title {
@@ -11,5 +11,4 @@
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
-
 }
