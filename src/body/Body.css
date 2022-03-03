@@ -19,6 +19,19 @@
     color: #FFFFFF;
 }
 
-.information-part {
-    background-color: white;
+.background-image {
+    background-color: #FFFFFF;
+    background-image: url('../images/background-home.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 95vh auto;
+}
+
+.information-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.information-subtitle {
+    font-size: 20px;
 }
