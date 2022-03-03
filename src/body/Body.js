@@ -4,15 +4,15 @@ import { Container } from 'react-bootstrap';
 
 function Body() {
     return (
-        <div className="row content">
-            <section className="Description-section">
+        <section className="home-section">
+            <div className="description-part box">
                 <Container>
-                    <div className="Description-title">
+                    <div className="description-title">
                         A melhor combinação entre Banking as a Service e Cloud Computing
                     </div>
                 </Container>
-            </section>
-        </div>
+            </div>
+        </section>
     );
 }
 
