@@ -14,9 +14,9 @@ function Body() {
             </div>
             <div className="information-part row content background-image">
                 <div style={{margin:'auto'}}>
-                    <Container style={{marginBottom:'100px'}}>
+                    <Container className="information-container">
                         <Row>
-                            <Col xl={5}>
+                            <Col className="information-col" xl={5} md={5} sm={6}> 
                                 <h4 className="information-title">Transforme seu negócio à partir das melhores soluções entre <b>Banking</b> e <b>Cloud</b></h4>
                                 <p className="information-subtitle">Oferecemos o <b>melhor da tecnologia em nuvem</b> em conjunto com a <b>expertise</b> de quem conhece o <b>mercado financeiro</b>.</p>
                             </Col>

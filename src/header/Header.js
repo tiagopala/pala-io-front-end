@@ -12,7 +12,7 @@ function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="me-auto"></Nav>
-                        <Nav class="Table-column">
+                        <Nav className="Table-column">
                             <Nav.Link href="#home" className="Table-cell-div links">
                                 <span className="link-text">Developers</span> &nbsp;
                             </Nav.Link>
@@ -23,7 +23,9 @@ function Header() {
                                 <span className="link-text">Empresa </span> &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
                             </Nav.Link>
                             <Nav.Link className="Table-cell-div">
-                                <button className="Contact-buttom link-text">Contato</button>
+                                <span className="link-text">
+                                    <button className="Contact-buttom">Contato</button>
+                                </span>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
