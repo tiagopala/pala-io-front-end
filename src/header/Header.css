@@ -1,7 +1,7 @@
 header {
     width: 100%;
     position: absolute;
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
 }
@@ -10,13 +10,13 @@ header {
     width: 100%;
 }
 
-.Table-column {
-    display: table !important;;
+.links {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
 }
 
-.Table-cell-div {
-    display: table-cell !important;;
-    vertical-align: middle !important;;
+.link-text {
+    font-size: 18px;
 }
 
 .App-logo {
@@ -26,14 +26,6 @@ header {
 .Arrow-down {
     width: 10px;
     height: 10px;
-}
-
-.Nav-item-left {
-    margin-right: 40px;
-}
-
-.Nav-items-div {
-    text-align: right;
 }
 
 .Contact-buttom {

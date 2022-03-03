@@ -13,17 +13,17 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="me-auto"></Nav>
                         <Nav class="Table-column">
-                            <Nav.Link href="#home" className="Table-cell-div">
-                                Developers &nbsp;
+                            <Nav.Link href="#home" className="Table-cell-div links">
+                                <span className="link-text">Developers</span> &nbsp;
                             </Nav.Link>
-                            <Nav.Link href="#home" className="Table-cell-div">
-                                Soluções Cloud &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
+                            <Nav.Link href="#home" className="Table-cell-div links">
+                                <span className="link-text">Soluções Cloud</span> &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
                             </Nav.Link>
-                            <Nav.Link href="#link" className="Table-cell-div">
-                                Empresa &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
+                            <Nav.Link href="#link" className="Table-cell-div links ">
+                                <span className="link-text">Empresa </span> &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
                             </Nav.Link>
                             <Nav.Link className="Table-cell-div">
-                                <button className="Contact-buttom">Contato</button>
+                                <button className="Contact-buttom link-text">Contato</button>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
