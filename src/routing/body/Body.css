@@ -21,7 +21,7 @@
 
 .background-image {
     background-color: #FFFFFF;
-    background-image: url('../images/background-home.png');
+    background-image: url('../../images/background-home.png');
     background-position: right;
     background-repeat: no-repeat;
     background-size: 95vh auto;
