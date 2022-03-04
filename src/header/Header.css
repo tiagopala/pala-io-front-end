@@ -1,7 +1,47 @@
-.header-logo {
+header {
+    width: 100%;
     position: absolute;
-    width: 300px;
-    height: 67.68px;
-    left: 180px;
-    top: 20px;       
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    width: 100%;
+}
+
+.links {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.link-text {
+    font-size: 18px;
+}
+
+.App-logo {
+    width: 140px;
+}
+
+.Arrow-down {
+    width: 10px;
+    height: 10px;
+}
+
+.Contact-buttom {
+    color: black !important;
+    background: #FF9D00 !important;
+    border-radius: 15px !important;
+    border-style: none !important;
+    width: 101px !important;
+    height: 51px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover {
+    cursor: pointer;
 }

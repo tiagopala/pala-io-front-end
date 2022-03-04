@@ -1,0 +1,71 @@
+.home-section {
+    height: 100vh;
+}
+
+.description-part {
+    background-color: #232F3E;
+    padding-top: 87px;
+}
+
+.description-title {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.background-image {
+    background-color: #FFFFFF;
+    background-image: url('../images/background-home.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 95vh auto;
+}
+
+.information-container {
+    margin-bottom:100px;
+}
+
+.information-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.information-subtitle {
+    font-size: 20px;
+}
+
+
+@media(min-width:1200px) and (max-width:1480px) {
+    .background-image {
+        background-size: 80vh auto;
+    }
+}
+
+@media(min-width:1050px) and (max-width:1199px) {
+    .background-image {
+        background-size: 70vh auto;
+    }
+}
+
+@media(min-width:960px) and (max-width:1049px) {
+    .background-image {
+        background-size: 65vh auto;
+    }
+}
+
+@media(min-width:0px) and (max-width:959px) {
+    .background-image {
+        background-size: 0vh auto;
+    }
+
+    .information-col {
+        text-align: center;
+        width: 100% !important;
+    }
+}
