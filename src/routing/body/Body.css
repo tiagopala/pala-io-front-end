@@ -1,0 +1,33 @@
+.home-section {
+    height: 100vh;
+}
+
+.description-part {
+    background-color: #232F3E;
+    padding-top: 87px;
+}
+
+.description-title {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.information-container {
+    margin-bottom:100px;
+}
+
+.information-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.information-subtitle {
+    font-size: 20px;
+}
