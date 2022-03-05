@@ -23,7 +23,8 @@ function Header() {
                             <Nav.Link className="Table-cell-div links ">
                                 <span className="link-text">Empresa </span> &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
                             </Nav.Link>
-                            <Nav.Link href="/contact" as={Link} to="/contact" className="Table-cell-div">
+                            {/* <Nav.Link href="/contact" as={Link} to="/contact" className="Table-cell-div"> */}
+                            <Nav.Link className="Table-cell-div">
                                 <span className="link-text">
                                     <button className="Contact-buttom">Contato</button>
                                 </span>

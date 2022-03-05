@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Body />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          {/* <Route path="/contact" element={<Contact />}></Route> */}
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
