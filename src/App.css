@@ -1,9 +1,9 @@
 
-.Table-column {
+.table-column {
     display: table !important;
 }
 
-.Table-cell-div {
+.table-cell-div {
     display: table-cell !important;
     vertical-align: middle !important;
 }

@@ -13,18 +13,18 @@ function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="me-auto"></Nav>
-                        <Nav className="Table-column">
-                            <Nav.Link className="Table-cell-div links">
+                        <Nav className="table-column">
+                            <Nav.Link className="table-cell-div links">
                                 <span className="link-text">Developers</span> &nbsp;
                             </Nav.Link>
-                            <Nav.Link className="Table-cell-div links">
+                            <Nav.Link className="table-cell-div links">
                                 <span className="link-text">Soluções Cloud</span> &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
                             </Nav.Link>
-                            <Nav.Link className="Table-cell-div links ">
+                            <Nav.Link className="table-cell-div links ">
                                 <span className="link-text">Empresa </span> &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
                             </Nav.Link>
-                            {/* <Nav.Link href="/contact" as={Link} to="/contact" className="Table-cell-div"> */}
-                            <Nav.Link className="Table-cell-div">
+                            {/* <Nav.Link href="/contact" as={Link} to="/contact" className="table-cell-div"> */}
+                            <Nav.Link className="table-cell-div">
                                 <span className="link-text">
                                     <button className="Contact-buttom">Contato</button>
                                 </span>

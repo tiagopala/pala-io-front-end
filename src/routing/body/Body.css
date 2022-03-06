@@ -19,15 +19,26 @@
     color: #FFFFFF;
 }
 
-.information-container {
-    margin-bottom:100px;
-}
-
 .information-title {
-    font-size: 30px;
+    font-weight: 300;
+    font-size: 32px;
     margin-bottom: 30px;
 }
 
 .information-subtitle {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.information-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media(min-width:0px) and (max-width:991px) {
+    
+    .image-column {
+        display: none;
+    }
+
 }
