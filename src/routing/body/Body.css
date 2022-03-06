@@ -35,6 +35,14 @@
     vertical-align: middle;
 }
 
+.information-image {
+    object-fit: contain;
+    width:100%;
+    height:100%;
+}
+
+/* -------------------- medias -------------------- */
+
 @media(min-width:0px) and (max-width:991px) {
     
     .image-column {

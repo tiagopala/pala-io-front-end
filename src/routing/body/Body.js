@@ -8,9 +8,7 @@ function Body() {
         <section className="home-section box">
             <div className="description-part row header">
                 <Container>
-                    <div className="description-title">
-                        A melhor combinação entre banking e cloud computing
-                    </div>
+                    <div className="description-title">A melhor combinação entre banking e cloud computing</div>
                 </Container>
             </div>
             <div className="information-part row content table-column">
@@ -22,7 +20,7 @@ function Body() {
                                 <p className="information-subtitle">Oferecemos o <b>melhor da tecnologia em nuvem</b> em conjunto com a <b>expertise</b> de quem conhece o <b>mercado financeiro</b>.</p>
                             </Col>
                             <Col className="image-column">
-                                <img src={image} style={{objectFit:'contain',width:'100%',height:'100%'}}></img>
+                                <img src={image} className="information-image"></img>
                             </Col>
                         </Row>
                     </Container>
