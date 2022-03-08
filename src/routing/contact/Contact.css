@@ -1,7 +1,31 @@
 .contact-section {
     height: 100vh;
+    padding-top: 87px;
 }
 
-.contact-div {
-    padding-top: 87px;
+.contact-title {
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.information-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media(min-width:0px) and (max-width:991px) {
+
+    .contact-section {
+        padding-top: 0px;
+    }
 }

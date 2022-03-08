@@ -11,13 +11,13 @@ function Body() {
                     <div className="description-title">A melhor combinação entre banking e cloud computing</div>
                 </Container>
             </div>
-            <div className="information-part row content table-column">
+            <div className="row content table-column">
                 <div style={{margin:'auto'}} className="table-cell-div">
                     <Container>
                         <Row className="table-column information-row">
-                            <Col className="information-col table-cell-div" xl={6} md={6} sm={12}> 
+                            <Col className="table-cell-div" xl={6} md={6} sm={12}> 
                                 <h4 className="information-title">Transforme seu negócio à partir das melhores soluções entre <b>banking</b> e <b>cloud computing</b></h4>
-                                <p className="information-subtitle">Oferecemos o <b>melhor da tecnologia em nuvem</b> em conjunto com a <b>expertise</b> de quem conhece o <b>mercado financeiro</b>.</p>
+                                <p className="information-subtitle">Oferecemos o <b>melhor da tecnologia em nuvem</b> em conjunto com a <b>expertise</b> de quem conhece o <b>mercado financeiro</b></p>
                             </Col>
                             <Col className="image-column">
                                 <img src={image} className="information-image"></img>
