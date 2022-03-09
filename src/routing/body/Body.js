@@ -6,8 +6,8 @@ import image from '../../images/background-home.png'
 function Body() {
     return (
         <section className="home-section box">
-            <div className="description-part row header">
-                <Container>
+            <div className="description-part row header table-column">
+                <Container className="table-cell-div">
                     <div className="description-title">A melhor combinação entre banking e cloud computing</div>
                 </Container>
             </div>

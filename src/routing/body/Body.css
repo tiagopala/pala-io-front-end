@@ -5,12 +5,10 @@
 
 .description-part {
     background-color: #232F3E;
-    
+    height: 182px;
 }
 
 .description-title {
-    padding-top: 70px;
-    padding-bottom: 70px;
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: normal;
