@@ -1,5 +1,14 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const notifySuccess = () => {
+    toast.success("Success Notification !", {
+        position: toast.POSITION.TOP_RIGHT,
+        theme: "dark"
+    });
+}
 
 class ContactFormComponent extends React.Component {
 
@@ -153,10 +162,11 @@ class ContactFormComponent extends React.Component {
                 <Row className="form-row-entry">
                     <Col xl={4} md={3} sm={12}></Col>
                     <Col xl={8} md={9} sm={12} className="column-form">
-                        <input className="btn send-button" type="submit" value="Enviar" />
+                        <input className="btn send-button" type="submit" value="Enviar" onClick={notifySuccess} />
                     </Col>
                     <Col xl={6} md={4} sm={12}></Col>
                 </Row>
+                <ToastContainer/>
             </form>
         );
     }
