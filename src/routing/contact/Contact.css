@@ -1,7 +1,95 @@
-.contact-section {
-    height: 100vh;
+textarea:focus, input:focus{
+    outline: none;
 }
 
-.contact-div {
+*:focus {
+    outline: none;
+}
+
+.contact-section {
+    height: 100vh;
     padding-top: 87px;
+}
+
+.contact-part {
+    background-color: #232F3E;
+    height: 182px;
+}
+
+.contact-title {
+    padding-bottom: 10px;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contact-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.information-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.form-button {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f5f8fa;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #33475b;
+    border: 1px solid #cbd6e2;
+    border-radius: 3px;
+}
+
+.send-button {
+    font-weight: bold;
+    width: 100px;
+    height: 45px;
+    background-color: #ff9d01d4 !important;
+    border-color: #ff9d01d4 !important;
+}
+
+.contact-form-content {
+    padding-bottom: 100px;
+}
+
+.form-property-name {
+    font-weight: initial;
+    font-size: 16px;
+}
+
+.form-row {
+    padding-bottom: 3px;
+}
+
+.form-row-entry {
+    padding-bottom: 10px;
+}
+
+.required-field {
+    color: red;
+}
+
+@media(min-width:0px) and (max-width:991px) {
+
+    .contact-section {
+        padding-top: 0px;
+    }
+}
+
+@media(min-width:0px) and (max-width:576px) {
+    
+    .column-form {
+        width: 50% !important;
+    }
 }

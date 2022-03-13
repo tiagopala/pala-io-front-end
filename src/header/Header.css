@@ -4,10 +4,15 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
+    box-shadow: 0px 4px 8px rgb(38 38 38 / 20%);
 }
 
 .header-nav {
     width: 100%;
+}
+
+.nav-table-column {
+    display: table !important;
 }
 
 .links {
@@ -17,6 +22,7 @@ header {
 
 .link-text {
     font-size: 18px;
+    font-weight: 400;
 }
 
 .App-logo {
@@ -28,13 +34,13 @@ header {
     height: 10px;
 }
 
-.Contact-buttom {
+.contact-buttom {
     color: black !important;
-    background: #FF9D00 !important;
+    background: #ff9d01d4 !important;
     border-radius: 15px !important;
     border-style: none !important;
-    width: 101px !important;
-    height: 51px !important;
+    height: 55px!important;
+    width: 120px!important;
 }
 
 a {
@@ -44,4 +50,60 @@ a {
 
 a:hover {
     cursor: pointer;
+}
+
+/* -------------------- medias -------------------- */
+
+@media(min-width:0px) and (max-width:991px) {
+
+    header {
+        width: 100%;
+        position: inherit;
+        height: initial;
+        display: flex;
+        align-items: center;
+    }
+
+    .links {
+        padding-left: initial !important;
+        padding-right: unset !important;
+    }
+
+    .link-text {
+        font-weight: 300;
+    }
+
+    .contact-buttom {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+
+    .nav-table-column {
+        display: flex !important;
+    }
+
+    .contact-buttom {
+        background: none !important;
+        color: inherit !important;
+        border: none !important;
+        padding: 0 !important;
+        font: inherit !important;
+        cursor: pointer !important;
+        outline: inherit !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        margin-left: -20px !important;
+    }
+
+    .button-nav-link {
+        height: 43px;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
 }

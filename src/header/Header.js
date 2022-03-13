@@ -9,24 +9,22 @@ function Header() {
         <header>
             <Navbar className="header-nav" bg="white" expand="lg">
                 <Container>
-                    <Navbar.Brand as={Link} to="/"><img src={logo} className="App-logo" alt="logo" /></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"><img src={logo} className="App-logo" alt="logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav" >
-                        <Nav className="me-auto"></Nav>
-                        <Nav className="Table-column">
-                            <Nav.Link className="Table-cell-div links">
+                    <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+                        <Nav className="nav-table-column">
+                            {/* <Nav.Link className="table-cell-div links">
                                 <span className="link-text">Developers</span> &nbsp;
                             </Nav.Link>
-                            <Nav.Link className="Table-cell-div links">
+                            <Nav.Link className="table-cell-div links">
                                 <span className="link-text">Soluções Cloud</span> &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
-                            </Nav.Link>
-                            <Nav.Link className="Table-cell-div links ">
+                            </Nav.Link> 
+                            <Nav.Link className="table-cell-div links ">
                                 <span className="link-text">Empresa </span> &nbsp;<img src={arrowdown} className="Arrow-down" alt="logo" />
-                            </Nav.Link>
-                            {/* <Nav.Link href="/contact" as={Link} to="/contact" className="Table-cell-div"> */}
-                            <Nav.Link className="Table-cell-div">
+                            </Nav.Link> */}
+                            <Nav.Link href="/contact" as={Link} to="/contact" className="table-cell-div">
                                 <span className="link-text">
-                                    <button className="Contact-buttom">Contato</button>
+                                    <button className="contact-buttom">Contato</button>
                                 </span>
                             </Nav.Link>
                         </Nav>
