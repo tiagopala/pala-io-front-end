@@ -1,3 +1,11 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
 .contact-section {
     height: 100vh;
     padding-top: 87px;
@@ -32,6 +40,15 @@
 
 .form-button {
     width: 100%;
+    box-sizing: border-box;
+    background-color: #f5f8fa;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #33475b;
+    border: 1px solid #cbd6e2;
+    border-radius: 3px;
 }
 
 .send-button {
