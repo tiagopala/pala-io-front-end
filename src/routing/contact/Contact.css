@@ -76,6 +76,10 @@ textarea:focus, input:focus{
     padding-bottom: 10px;
 }
 
+.required-field {
+    color: red;
+}
+
 @media(min-width:0px) and (max-width:991px) {
 
     .contact-section {
