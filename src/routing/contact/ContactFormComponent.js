@@ -36,31 +36,127 @@ class ContactFormComponent extends React.Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <Row>
-                    <Col xl={6} md={6} sm={12}>
-                        <span>Nome</span>
+                <Row className="form-row">
+                    <Col xl={4} md={3} sm={0}></Col>
+                    <Col xl={2} md={3} sm={6} className="column-form">
+                        <span className="form-property-name">Nome</span>
                     </Col>
-                    <Col xl={6} md={6} sm={12}>
-                        <span>Sobrenome</span>
-                    </Col>                    
+                    <Col xl={6} md={6} sm={6} className="column-form">
+                        <span className="form-property-name">Sobrenome</span>
+                    </Col>
                 </Row>
-                <Row>
-                    <Col xl={6} md={6} sm={12}>
+                <Row className="form-row-entry">
+                    <Col xl={4} md={3} sm={0}></Col>
+                    <Col xl={2} md={3} sm={6} className="column-form">
                         <input
+                            className="form-button"
                             name="nome"
                             type="text"
                             value={this.state.nome || ""}
                             onChange={this.handleChange} />
                     </Col>
-                    <Col xl={6} md={6} sm={12}>
+                    <Col xl={2} md={3} sm={6} className="column-form">
                         <input
+                            className="form-button"
                             name="sobrenome"
                             type="text"
                             value={this.state.sobrenome || ""}
                             onChange={this.handleChange} />
                     </Col>
+                    <Col xl={4} md={3} sm={0}></Col>
                 </Row>
-                <input type="submit" value="Enviar" />
+                <Row className="form-row">
+                    <Col xl={4} md={3} sm={12}></Col>
+                    <Col xl={8} md={9} sm={12} className="column-form">
+                        <span className="form-property-name">Email</span>
+                    </Col>
+                </Row>
+                <Row className="form-row-entry">
+                    <Col xl={4} md={3} sm={12}></Col>
+                    <Col xl={4} md={6} sm={12}>
+                        <input
+                            className="form-button"
+                            name="email"
+                            type="text"
+                            value={this.state.email || ""}
+                            onChange={this.handleChange} />
+                    </Col>
+                    <Col xl={4} md={3} sm={12}></Col>
+                </Row>
+                <Row className="form-row">
+                    <Col xl={4} md={3} sm={0}></Col>
+                    <Col xl={2} md={3} sm={6} className="column-form">
+                        <span className="form-property-name">Celular</span>
+                    </Col>
+                    <Col xl={6} md={6} sm={6} className="column-form">
+                        <span className="form-property-name">Telefone</span>
+                    </Col>
+                    <Col xl={4} md={4} sm={0}></Col>
+                </Row>
+                <Row className="form-row-entry">
+                    <Col xl={4} md={3} sm={0}></Col>
+                    <Col xl={2} md={3} sm={6} className="column-form">
+                        <input
+                            className="form-button"
+                            name="celular"
+                            type="text"
+                            value={this.state.celular || ""}
+                            onChange={this.handleChange} />
+                    </Col>
+                    <Col xl={2} md={3} sm={6} className="column-form">
+                        <input
+                            className="form-button"
+                            name="telefone"
+                            type="text"
+                            value={this.state.telefone || ""}
+                            onChange={this.handleChange} />
+                    </Col>
+                    <Col xl={4} md={4} sm={0}></Col>
+                </Row>
+                <Row className="form-row">
+                    <Col xl={4} md={3} sm={12}></Col>
+                    <Col xl={8} md={9} sm={12} className="column-form">
+                        <span className="form-property-name">Empresa</span>
+                    </Col>
+                </Row>
+                <Row className="form-row-entry">
+                    <Col xl={4} md={3} sm={12}></Col>
+                    <Col xl={4} md={6} sm={12}>
+                        <input
+                            className="form-button"
+                            name="empresa"
+                            type="text"
+                            value={this.state.empresa || ""}
+                            onChange={this.handleChange} />
+                    </Col>
+                    <Col xl={4} md={3} sm={12}></Col>
+                </Row>
+                <Row className="form-row">
+                    <Col xl={4} md={3} sm={12}></Col>
+                    <Col xl={8} md={9} sm={12}>
+                        <span className="form-property-name">Mensagem</span>
+                    </Col>
+                    <Col xl={6} md={4} sm={12}></Col>
+                </Row>
+                <Row className="form-row-entry">
+                    <Col xl={4} md={3} sm={12}></Col>
+                    <Col xl={4} md={6} sm={12}>
+                        <textarea
+                            className="form-button"
+                            name="mensagem"
+                            type="text"
+                            value={this.state.mensagem || ""}
+                            onChange={this.handleChange} />
+                    </Col>
+                    <Col xl={4} md={3} sm={12}></Col>
+                </Row>
+                <Row className="form-row-entry">
+                    <Col xl={4} md={3} sm={12}></Col>
+                    <Col xl={8} md={9} sm={12} className="column-form">
+                        <input className="btn send-button" type="submit" value="Enviar" />
+                    </Col>
+                    <Col xl={6} md={4} sm={12}></Col>
+                </Row>
             </form>
         );
     }

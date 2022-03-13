@@ -12,7 +12,7 @@ function Contact() {
                     <p className="contact-subtitle">Entre em contato com nossos especialistas para que possamos ajudá-los a atingir seus objetivos</p>
                 </Container>
             </div>
-            <div className="row content table-column">
+            <div className="row table-column" style={{paddingTop:50}}>
                 <div style={{ margin: 'auto' }} className="table-cell-div">
                     <Container>
                         <ContactFormComponent />

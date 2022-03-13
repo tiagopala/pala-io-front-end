@@ -30,9 +30,45 @@
     vertical-align: middle;
 }
 
+.form-button {
+    width: 100%;
+}
+
+.send-button {
+    font-weight: bold;
+    width: 100px;
+    height: 45px;
+    background-color: #ff9d01d4 !important;
+    border-color: #ff9d01d4 !important;
+}
+
+.contact-form-content {
+    padding-bottom: 100px;
+}
+
+.form-property-name {
+    font-weight: initial;
+    font-size: 16px;
+}
+
+.form-row {
+    padding-bottom: 3px;
+}
+
+.form-row-entry {
+    padding-bottom: 10px;
+}
+
 @media(min-width:0px) and (max-width:991px) {
 
     .contact-section {
         padding-top: 0px;
+    }
+}
+
+@media(min-width:0px) and (max-width:576px) {
+    
+    .column-form {
+        width: 50% !important;
     }
 }
